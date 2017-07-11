@@ -25,7 +25,6 @@ def echo_response(message):
       print(msg)
       ReplyToActivity(fill=message,
                     text=msg).send()
-    elif message['attachments'][0][]
     else:
       data =  {
         "documents": [
